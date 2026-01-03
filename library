@@ -1,0 +1,73 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://img5.pic.in.th/file/secure-sv1/1-ezgif.com-gif-to-apng-converterb582f030842e9b4c.png",
+            "size": "full",
+            "animated": true,
+            "aspectMode": "cover",
+            "aspectRatio": "2.3:3",
+            "offsetBottom": "none"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "uri": "http://linecorp.com/",
+              "label": "    "
+            },
+            "position": "absolute",
+            "offsetTop": "85%",
+            "offsetEnd": "18%",
+            "gravity": "bottom",
+            "offsetStart": "15%",
+            "offsetBottom": "10%"
+          }
+        ],
+        "borderWidth": "none",
+        "paddingAll": "none"
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://img2.pic.in.th/2-ezgif.com-gif-to-apng-converter.png",
+        "size": "full",
+        "aspectMode": "cover",
+        "aspectRatio": "2.9:3",
+        "animated": true
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "backgroundColor": "#9370DB",
+        "contents": [
+          {
+            "type": "text",
+            "text": "The Ride of A Lifetime ",
+            "weight": "bold",
+            "size": "md",
+            "color": "#4A148C",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "แนะนำโดย : ",
+            "size": "sm",
+            "color": "#6A1B9A",
+            "wrap": true
+          }
+        ],
+        "cornerRadius": "none"
+      }
+    }
+  ]
+}
